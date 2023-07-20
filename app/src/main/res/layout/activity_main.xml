@@ -53,6 +53,18 @@
                 tools:layout_editor_absoluteY="99dp" />
 
             <TextView
+                android:id="@+id/filedate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="6dp"
+                android:text="filedatehere"
+                android:textColor="#6b666e"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/cosmeticbutton"
+                app:layout_constraintTop_toBottomOf="@+id/filename" />
+
+            <TextView
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
