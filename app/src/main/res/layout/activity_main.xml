@@ -8,7 +8,7 @@
     tools:context=".MainActivity" >
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/NavView"
+        android:id="@+id/BarView"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:background="#f7f0fd"
@@ -21,7 +21,7 @@
         android:layout_width="match_parent"
         android:layout_height="400dp"
         app:cardBackgroundColor="#00FFFFFF"
-        app:layout_constraintBottom_toTopOf="@+id/NavView"
+        app:layout_constraintBottom_toTopOf="@+id/BarView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
