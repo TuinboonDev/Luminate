@@ -31,6 +31,24 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
+            <Button
+                android:id="@+id/file"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="20dp"
+                android:visibility="invisible"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+            <TextView
+                android:id="@+id/filename"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextVie#w"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
@@ -45,11 +63,13 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/cosmeticbutton"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:layout_marginStart="40dp"
                 android:layout_marginTop="20dp"
+                android:backgroundTint="#ffffff"
+                android:enabled="false"
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
                 app:cornerRadius="20dp"
